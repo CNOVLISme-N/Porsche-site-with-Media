@@ -1,0 +1,237 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+.wrapper{
+    width: 100%;
+    height: auto;
+    background: #fff;
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    padding: 50px 0;
+}
+.wrapper__box{
+    width: 350px;
+    height: 250px;
+    border-radius: 10px;
+    display: flex;
+    align-items: end;
+
+}
+.wrapper__img-one{
+    background: url("./img/FE16224792F44854A85D76B0DAB8A130_9CAB28AFBFD2494084DC8D9973C77C3A_03---Taycan-Push.avif") no-repeat center/cover;
+
+}
+.wrapper__img-two{
+    background: url("./img/90003C3D20AD4C5583FFEB407FEC05BB_A18673D4FB154987AD00D9D3E51BBB34_KW05---PCNA---PECATL\ \(2\).avif") no-repeat center/cover;
+}
+.wrapper__img-three{
+    background: url("./img/ACB11B0283BC4E769EC9B582C1B4EC7F_81421B1797A14BDCA3BF9ADA51D5747E_01---Cayenne-S-E-Hybrid\ \(2\).avif") no-repeat center/cover;
+}
+.wrapper__icon{
+    width: 100%;
+    height: 50px;
+    padding: 0 10%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: #fff;
+    border-radius: 10px;
+    font-size: 17px;
+}
+.text{
+    text-align: center;
+}
+
+
+.kantiner{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    
+}
+.kantiner__box{
+    width: 75%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+}
+.kantiner__banner{
+    width: 50%;
+    height: 550px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: end;
+    color: white;
+    padding: 10px 30px;
+    flex-direction: column;
+    gap: 10px;
+}
+.kantiner__img-one{
+    background: url("./photo/D9863281BEC14473AE2EAD15A724142B_2CCC62FD91AB45619631CF4CE394061F_Berlin---Desktop.avif") no-repeat center/cover;
+}
+.kantiner__img-two{
+    background: url("./photo/CD077339BC4A4AFB803ED6D028082604_CD9FAF97C0E14BBC9B9B6B8EF7DD6E38_Panamera---Desktop.avif") no-repeat center/cover;
+}
+.kantiner__img-three{
+    background: url("./photo/787664363FDE4686BD0A6316DBB8422E_C9D18C3A5E8744E2BA3499E02027A53E_718---Desktop.avif") no-repeat center/cover;
+}
+.kantiner__img-four{
+    background: url("./photo/6937027C36EC4613B14E2F8F91807228_A3B05107130D4860A2238DFC817F4030_911---Desktop.avif") no-repeat center/cover;
+}
+.kantiner__img-five{
+    background: url("./photo/6937027C36EC4613B14E2F8F91807228_A3B05107130D4860A2238DFC817F4030_911---Desktop.avif") no-repeat center/cover;
+}
+.kantiner__img-six{
+    background: url("./photo/347AD48D59F24B72AF496106EC8A389C_109738680DB44BA6B3CC8B1585EAFA70_Taycan---Desktop.avif") no-repeat center/cover;
+}
+
+.btn{
+    width: 100%;
+    height: 50px;
+    background: whitesmoke;
+    border-radius: 5px;
+    border: none;
+}
+.btn__one{
+    background: transparent;
+    border:  1px solid #fff;
+    color: white;
+}
+
+.banner{
+    width: 100%;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 60px 0;
+}
+.banner__img{
+    width: 45%;
+    height: 500px;
+    border-radius: 10px 0 0 10px;
+    background: url("./img/F3D689BF517843DF9F9E79F5AFD86008_0D6016CEDC714793879B0E14411AB9C1_16-9_dealer_search_new.avif") no-repeat center/cover;
+
+}
+.banner__box{
+    width: 35%;
+    height: 500px;
+    border-radius: 0 10px 10px 0;
+    background: #0E0E12;
+    display: flex;
+    justify-content: center;
+    padding: 0 3%;
+    gap: 20px;
+    flex-direction: column;
+    color: white;
+}
+.banner__btn{
+    width: 30%;
+    border-radius: 5px;
+    border: none;
+    height: 50px;
+}
+
+.quti{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.quti__box{
+    width: 48%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 0 7%;
+    gap: 20px;
+}
+.quti__box input{
+    width: 100%;
+    height: 60px;
+    border: 1px solid black;
+    outline: none;
+    padding-left: 10%;
+    padding-right: 10%;
+}
+.quti__img{
+    background: url("./img/DBB5B21ECE2947CB8771FD9948199CD3_D4A989FDCF784F618352F5B1DC7E15C6_Enhanced-Finder.avif") no-repeat center/cover;
+}
+
+
+.footer{
+    width: 100%;
+    background: #0E0E12;
+}
+.footer__top{
+    width: 100%;
+    height: 150px;
+    display: flex;
+    justify-content: center;
+    padding: 0 3%;
+    flex-direction: column;
+    color: #fff;
+    gap: 20px;
+}
+.footer__top p a{
+    color: #fff;
+    padding-left: 30px;
+}
+.footer__middle{
+    width: 100%;
+    display: flex;
+    gap: 20px;
+    padding: 0 3%;
+}
+.footer__middle-top{
+    display: flex;
+    width: 60%;
+    justify-content: space-between;
+}
+.footer__box{
+    width: 49%;
+    height: 250px;
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    
+
+}
+.footer__box-icons{
+    width: 29%;
+}
+.footer__btn{
+    width: 100%;
+    height: 50px;
+    border-radius: 5px;
+    border: none;
+}
+.footer__icons{
+    width: 100%;
+    height: auto;
+    display: flex;
+    gap: 10px;
+}
+.footer__icons i{
+    width: 50px;
+    height: 50px;
+    background: #fff;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #0E0E12;
+    font-size: 25px;
+}
